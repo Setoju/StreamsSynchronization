@@ -1,0 +1,14 @@
+C:\Users\Yuuko\source\repos\StreamsSynchronization\bin\Debug\net8.0\StreamsSynchronization.exe
+C:\Users\Yuuko\source\repos\StreamsSynchronization\bin\Debug\net8.0\StreamsSynchronization.deps.json
+C:\Users\Yuuko\source\repos\StreamsSynchronization\bin\Debug\net8.0\StreamsSynchronization.runtimeconfig.json
+C:\Users\Yuuko\source\repos\StreamsSynchronization\bin\Debug\net8.0\StreamsSynchronization.dll
+C:\Users\Yuuko\source\repos\StreamsSynchronization\bin\Debug\net8.0\StreamsSynchronization.pdb
+C:\Users\Yuuko\source\repos\StreamsSynchronization\obj\Debug\net8.0\StreamsSynchronization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yuuko\source\repos\StreamsSynchronization\obj\Debug\net8.0\StreamsSynchronization.AssemblyInfoInputs.cache
+C:\Users\Yuuko\source\repos\StreamsSynchronization\obj\Debug\net8.0\StreamsSynchronization.AssemblyInfo.cs
+C:\Users\Yuuko\source\repos\StreamsSynchronization\obj\Debug\net8.0\StreamsSynchronization.csproj.CoreCompileInputs.cache
+C:\Users\Yuuko\source\repos\StreamsSynchronization\obj\Debug\net8.0\StreamsSynchronization.dll
+C:\Users\Yuuko\source\repos\StreamsSynchronization\obj\Debug\net8.0\refint\StreamsSynchronization.dll
+C:\Users\Yuuko\source\repos\StreamsSynchronization\obj\Debug\net8.0\StreamsSynchronization.pdb
+C:\Users\Yuuko\source\repos\StreamsSynchronization\obj\Debug\net8.0\StreamsSynchronization.genruntimeconfig.cache
+C:\Users\Yuuko\source\repos\StreamsSynchronization\obj\Debug\net8.0\ref\StreamsSynchronization.dll

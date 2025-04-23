@@ -1,0 +1,14 @@
+C:\Users\Yuuko\source\repos\SteamsSynchronization\bin\Debug\net8.0\SteamsSynchronization.exe
+C:\Users\Yuuko\source\repos\SteamsSynchronization\bin\Debug\net8.0\SteamsSynchronization.deps.json
+C:\Users\Yuuko\source\repos\SteamsSynchronization\bin\Debug\net8.0\SteamsSynchronization.runtimeconfig.json
+C:\Users\Yuuko\source\repos\SteamsSynchronization\bin\Debug\net8.0\SteamsSynchronization.dll
+C:\Users\Yuuko\source\repos\SteamsSynchronization\bin\Debug\net8.0\SteamsSynchronization.pdb
+C:\Users\Yuuko\source\repos\SteamsSynchronization\obj\Debug\net8.0\SteamsSynchronization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yuuko\source\repos\SteamsSynchronization\obj\Debug\net8.0\SteamsSynchronization.AssemblyInfoInputs.cache
+C:\Users\Yuuko\source\repos\SteamsSynchronization\obj\Debug\net8.0\SteamsSynchronization.AssemblyInfo.cs
+C:\Users\Yuuko\source\repos\SteamsSynchronization\obj\Debug\net8.0\SteamsSynchronization.csproj.CoreCompileInputs.cache
+C:\Users\Yuuko\source\repos\SteamsSynchronization\obj\Debug\net8.0\SteamsSynchronization.dll
+C:\Users\Yuuko\source\repos\SteamsSynchronization\obj\Debug\net8.0\refint\SteamsSynchronization.dll
+C:\Users\Yuuko\source\repos\SteamsSynchronization\obj\Debug\net8.0\SteamsSynchronization.pdb
+C:\Users\Yuuko\source\repos\SteamsSynchronization\obj\Debug\net8.0\SteamsSynchronization.genruntimeconfig.cache
+C:\Users\Yuuko\source\repos\SteamsSynchronization\obj\Debug\net8.0\ref\SteamsSynchronization.dll
