@@ -9,7 +9,7 @@ public class Program
     private static readonly int threadsCount = Environment.ProcessorCount;
 
     private static readonly Thread[] threads = new Thread[threadsCount];
-    private static int minArrayElement = int.MaxValue;
+    private static (int value, int index) minElement = (int.MaxValue, -1);
 
     private static readonly object minLock = new object();
 
@@ -41,33 +41,36 @@ public class Program
             }
         }
         stopwatch.Stop();
-        Console.WriteLine($"Parallel min = {minArrayElement} in {stopwatch.ElapsedMilliseconds} ms");
+        Console.WriteLine($"Parallel min = {minElement.value} at index {minElement.index} in {stopwatch.ElapsedMilliseconds} ms");
+
         stopwatch.Reset();
 
         stopwatch.Start();
-        int singleThreadedMinElement = FindMinSingleThreaded();
+        var singleThreadedMin = FindMinSingleThreaded();
         stopwatch.Stop();
 
-        Console.WriteLine($"Single-threaded min = {singleThreadedMinElement} in {stopwatch.ElapsedMilliseconds} ms");
+        Console.WriteLine($"Single-threaded min = {singleThreadedMin.value} at index {singleThreadedMin.index} in {stopwatch.ElapsedMilliseconds} ms");
     }
 
     private static void FindMinInRange(int start, int end)
     {
         int localMin = int.MaxValue;
+        int localMinIndex = -1;
 
         for (int i = start; i < end; i++)
         {
             if (array[i] < localMin)
             {
                 localMin = array[i];
+                localMinIndex = i;
             }
         }
 
         lock (minLock)
         {
-            if (localMin < minArrayElement)
+            if (localMin < minElement.value)
             {
-                minArrayElement = localMin;
+                minElement = (localMin, localMinIndex);
             }
         }
 
@@ -78,18 +81,23 @@ public class Program
         }
     }
 
-    private static int FindMinSingleThreaded()
+    private static (int value, int index) FindMinSingleThreaded()
     {
         int min = int.MaxValue;
+        int index = -1;
+
         for (int i = 0; i < length; i++)
         {
             if (array[i] < min)
             {
                 min = array[i];
+                index = i;
             }
         }
-        return min;
+
+        return (min, index);
     }
+
 
     private static void GenerateArray()
     {

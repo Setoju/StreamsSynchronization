@@ -12,3 +12,4 @@ C:\Users\Yuuko\source\repos\StreamsSynchronization\obj\Debug\net8.0\refint\Strea
 C:\Users\Yuuko\source\repos\StreamsSynchronization\obj\Debug\net8.0\StreamsSynchronization.pdb
 C:\Users\Yuuko\source\repos\StreamsSynchronization\obj\Debug\net8.0\StreamsSynchronization.genruntimeconfig.cache
 C:\Users\Yuuko\source\repos\StreamsSynchronization\obj\Debug\net8.0\ref\StreamsSynchronization.dll
+C:\Users\Yuuko\source\repos\StreamsSynchronization\obj\Debug\net8.0\StreamsSynchronization.sourcelink.json

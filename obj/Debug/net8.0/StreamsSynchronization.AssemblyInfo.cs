@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamsSynchronization")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19d34de36992b20d52d219b1c09f3d95c52db109")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamsSynchronization")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamsSynchronization")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
